@@ -1,0 +1,153 @@
+.Form{
+ background: ##ff8065;
+    background: -webkit-linear-gradient(#ff8065, #feaa5f); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#ff8065, #feaa5f); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#ff8065, #feaa5f); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#ff8065, #feaa5f); /* Standard syntax */
+
+
+
+}
+p{
+	color: #FFF;
+	margin-top: 25px;
+}
+.h1{
+	color: #FFF;
+	margin-top: 100px;
+	margin-bottom: 50px;
+} 
+
+.form-inline .form-group {
+ 	display: inline-flex;   
+    margin-bottom: 15px;
+    
+    min-width: 26%;
+
+}
+.form-inline .form-control {
+    
+    min-width: 100%;
+    border-radius: 30px;}
+
+.custom-select{
+	min-width: 250px;
+    border-radius: 30px;
+    min-height: 47px;
+}
+.btn-select {
+    position: relative;
+    padding: 0;
+    min-width: 236px;
+    width: 100%;
+    border-radius: 0;
+    margin-bottom: 20px;
+}
+.btn-select {
+    position: relative;
+    padding: 0;
+    min-width: 236px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.btn-select .btn-select-value {
+    padding: 6px 12px;
+    display: block;
+    position: absolute;
+    left: 0;
+    right: 34px;
+    text-align: left;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    border-top: none !important;
+    border-bottom: none !important;
+    border-left: none !important;
+        color: #9E9E9E;
+}
+
+.btn-select .btn-select-arrow {
+    float: right;
+    line-height: 20px;
+    padding: 6px 10px;
+    top: 0;
+    background-color: #fe9b62;
+    border-radius: 50%;
+    color: #FFF;
+    margin-right: 7px;
+}
+
+.btn-select ul {
+    display: none;
+    background-color: white;
+    color: black;
+    clear: both;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    border-top: none !important;
+    position: relative;
+    left: -1px;
+    right: -1px;
+    top: 33px;
+    z-index: 999;
+    border-radius: 0 0 19px 19px;
+}
+
+.btn-select ul li {
+    padding: 11px 23px;
+    text-align: left;
+}
+
+.btn-select ul li:hover {
+    background-color: #f4f4f4;
+}
+
+.btn-select ul li.selected {
+    color: white;
+}
+
+/* Default Start */
+.btn-select.btn-default, .btn-select.btn-default:hover, .btn-select.btn-default:active, .btn-select.btn-default.active {
+    border-color: #ccc;
+    border-radius: 30px;
+    position: relative;
+        max-width: 27%;
+        min-height: 42px;
+    padding-top: 4px;
+}
+
+
+
+.btn-select.btn-default:hover, .btn-select.btn-default.active {
+    background-color: #FFF;
+}
+/* Default End */
+/*Start Button*/
+.btn-block{
+	display: inline-block;
+	border-radius: 30px;
+	width: 82px;
+    
+}
+/*End Button*/
+.btn-group, .btn-group-vertical{
+	float: right;
+}
+.btn-group > .btn:first-child{
+	border-radius: 30px;
+}
+.btn-group > .btn:last-child:not(:first-child), .btn-group > .dropdown-toggle:not(:first-child){
+	border-radius: 0 30px 30px 0;  
+}
+#booked
+{
+color:#e75f44;
+}
+.btn-group:hover > .btn:first-child:not(:last-child):not(.dropdown-toggle){
+	background-color: #e75f44;
+}
+.fa{
+	line-height: 7;
+    font-size: 27px;
+}
